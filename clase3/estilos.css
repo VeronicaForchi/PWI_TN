@@ -1,0 +1,91 @@
+/* comentarios en CSS */
+/* Selectores */
+
+/* selector por etiqueta */ 
+/* a todos los elementos <p> les asigna las propiedades definidas */
+body{
+    background-image: url(../Clase2/imagenes/ROSTRO\ GIULIANO.jpg);
+    background-attachment:  fixed;/*backgroun-attachment: fixed hace que la imangen de fondo quede fija al mover el scroll*/
+}
+p{
+    color: green;
+    background-color: #3498db;
+}
+button{
+    background-color: rgb(255,192,203);
+    margin-right: 80px;
+    /*  margin-top: 80px; */
+}
+h1{
+    background-color: rgba(100,50,88,0.5);
+    width: 400px;/* unidad fija*/
+    height: 50vh; /* propiedad del alto de un elemento*/
+    display: inline-block;/* cambia el comportamiento del elemento de bloque a linea */
+}
+
+a{
+    background-color: tomato;
+    color: white;
+    width: 100px;
+    /*padding-bottom:10px; */
+    padding: 10px;/* padding rellena la etiqueta */
+    border:black 2px solid ;/* 3 valores : el color el grosor y el tipo de borde */
+    border-radius: 20px; /* permite redondear los bordes */
+    display: block;
+}
+/* selectores de clase */
+/* .nombreDeLaClase */
+
+.textoRojo{
+    color: red;
+}
+
+.letras{
+    color: blue;
+}
+
+/* selectores por id */
+
+#unTexto{
+    background-color: orange;
+}
+
+img{
+    width:50% ;/* ancho de un elemento */
+    height: 100vh;
+}
+
+ul{
+    width: 800px;
+    height: 100px;
+    background-color: red;
+}
+
+li{
+    width: 50%; /*400px*/
+    height: 25%;
+    background-color: blueviolet;
+    }
+div{
+    width: 300px;
+    height: 200px;
+    background-image: url(../Clase2/imagenes/ROSTRO\ GIULIANO.jpg);/* permite colocar una imagen de fondo a una etiqueta*/
+}
+  
+/* le va a cvolocar a los elementos todas las prpiedades que leasigne */
+/* mas general por etiqueta , el por clase , el de id */
+/* color es el color de la tipografía */
+/* definir colores:
+    ROJO - VERDE - AZUL
+hexadecimal # A-F 0-9
+rgb (red, green, blue) del 0 al 255- rgba (red, green, blue, transparencia del 0 al 1)
+colores predifinidos por CSS 
+
+*/
+/* UNIDADES
+
+porcentaje (%) toma como 100%  la medida del padre para saber cuanto va a valer el hijo
+*/
+/* 25vh view height -> 25% del alto de la pantalla
+50vw view width -> 50% del ancho de la pantalla
+*/ 
