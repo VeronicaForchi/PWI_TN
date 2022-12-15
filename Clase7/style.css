@@ -1,0 +1,93 @@
+
+section{
+    width: 900px;
+    border: 2px solid black;
+    display: flex;
+    height: 900px;
+    /* align-items: flex-end; */
+    justify-content: space-evenly;
+    
+}
+.tamanio{
+    width: 150px;
+    height: 150px;
+}
+.caja1{
+    background-color: red;
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+    
+}
+.caja2{
+    background-color: green;
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+}
+.caja3{
+    background-color: blue;
+    /* flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 500px; */
+}
+/* *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    body{
+        background:linear-gradient(rgba(53, 82, 66, 0.5), rgba(47, 80, 63, 0.6)), url(imagen.jpg) center no-repeat;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+            
+        align-items: center;
+            
+        height: 100vh;    body necesita un alto y se da con display: flex 
+
+    }
+
+    h1, p{
+        margin-bottom: 15px;
+        color:white;
+        animation-name: izquierda;
+        animation-duration: 2s;
+    }
+
+    button{
+        width:180px;
+        padding: 12px;
+        margin: 20px;
+        border: 2px solid #eee ;
+        border-radius: 50px;          redondea los bordes
+        cursor: pointer;              el cursor se transforma en manito
+        font-size: 18px;
+        letter-spacing: 1px;          para separacion entre letras
+        background: transparent;      hace transparente al boton
+        color: white;
+    }
+
+    button:hover{
+        background-color: red;
+    }       hover hace que al pasar por sobre el boton o parrafo o lo que sea tome cierta forma
+    
+    @keyframes izquierda {
+        0%{
+            transform: translateX(520px);
+            opacity:0; 
+        }
+        50%{
+            color:red ;
+        }
+        100%{
+            transform: translateX(0);
+            opacity:1; 
+        }
+    } keyframes son fotogramas;        translateX traslada en direccion eje X , translateY traslada en direccion eje Y, si pongo números negativos traslada en el sentido contrario; opacity va de 0 a 1
+
+    a{
+        color: white;
+        text-decoration: none;        quita la linea de abajo de cada etiqueta a
+        margin-left: 15px;
+        cursor: pointer;
+    }*/
